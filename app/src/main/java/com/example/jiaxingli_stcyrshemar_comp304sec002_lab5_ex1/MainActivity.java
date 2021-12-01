@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         resturantTypes.add("Greek");
         resturantTypes.add("Chinese");
         resturantTypes.add("Indian");
-      //  recycleview
+
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
                 this,
@@ -33,11 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 resturantTypes );
 
         listView.setAdapter(arrayAdapter);
-        // RecyclerView recyclerView = findViewById(R.id.recycleview);
-      //  recyclerView.setLayoutManager(new LinearLayoutManager(this));
-      //  adapter = new RecyclerView(this, resturantTypes);
 
-       //recyclerView.setAdapter(adapter);
 
     }
 }
